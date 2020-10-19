@@ -7,9 +7,16 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="login.php">Login</a>
-      <a class="nav-item nav-link" href="signup.php">Signup</a>      
+      <a class="nav-item nav-link" href="profile.php">Profile</a>
+       
+      <a class="nav-item nav-link" href="#"></a>  
+      
+      
     </div>
+    
   </div>
-
+  <p class="navbar-text navbar-right">
+    
+  </p>
+  <a class="nav-item nav-link" href="logout.php"><span style="color:black;">Welcome <?php echo $AUTH_USER;?></span> Logout</a>     
 </nav>
